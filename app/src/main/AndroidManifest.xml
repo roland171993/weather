@@ -14,7 +14,14 @@
         android:supportsRtl="true"
         android:name="com.keyopstech.App"
         android:theme="@style/Theme.Weather">
-        <activity android:name="com.keyopstech.WeatherDetailActivity"></activity>
+        <activity android:name="com.keyopstech.WeatherDetailActivity"/>
+        <activity android:name="com.keyopstech.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
