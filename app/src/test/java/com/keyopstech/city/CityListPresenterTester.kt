@@ -12,9 +12,10 @@ class CityListPresenterTester:CityListView {
         CityRepositoryImpl()
     ))
 
-    override fun goToDetail(city: City) {
+    override fun goToDetail(cityName: String) {
 
     }
+
 
     override fun getListView(): ListView? {
         return null
