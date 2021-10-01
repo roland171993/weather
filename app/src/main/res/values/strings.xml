@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Weather SomeChange</string>
+    <string name="label_city">Ville</string>
+    <string name="label_cities">Villes</string>
+    <string name="label_weather">Météo</string>
+    <string name="label_temperature">Température</string>
+    <string name="error_no_internet">Erreur,  Vous n\'êtes pas connecté à internet</string>
+    <string name="error_bad_city">Erreur, le nom de la ville est incorrecte</string>
+</resources>
